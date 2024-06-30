@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5a5ffd6d29.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo"><span>D</span>aniel.</p>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <div></div>
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Daniel</span><br>Wekesa From Kenya</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptates cumque rem quibusdam soluta. Eaque blanditiis at cupiditate? Voluptas quos nihil repudiandae in aperiam laboriosam itaque adipisci non doloribus nobis inventore porro rerum unde autem magni iure quas, eveniet dolorum distinctio. Esse error omnis aut necessitatibus iste blanditiis exercitationem ratione!</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Web Developer at Context Expert Agencies</li>
+                            <li><span>2022 - 2023</span><br>Succesfully developed a website project (coffee shop) in freecodecamp </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Enrolled in freecodecamp for Backend Development</li>
+                            <li><span>2023</span><br>Completed Cousera HTML, CSS and Javascript for Web Development</li>
+                            <li><span>2022</span><br>Graphic Design at Africa Nazarene University</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quasi similique nisi eos pariatur quisquam vitae delectus saepe aut quos!</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quasi similique nisi eos pariatur quisquam vitae delectus saepe aut quos!</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quasi similique nisi eos pariatur quisquam vitae delectus saepe aut quos!</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects section -->
+     <div id="projecs">
+        <div class="container">
+            <h1 class="title">My Projects</h1>
+        </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
